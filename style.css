@@ -101,6 +101,7 @@ button.sign {
     flex-direction: column;
     width: 150px;
     padding: 16px;
+    font-size: 18px;
 }
 
 .small_imgs .image {
@@ -146,12 +147,30 @@ button.sign {
     background: #3882F6;
     border-radius: 8px;
     margin: 32px;
-    padding: 32px 64px;
+    padding: 32px 128px;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    
 }
 
 button.sign_bot {
     background: #3882F6;
     color: #f9faf8;
     border: 2px solid #f9faf8;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*footer*/
+.footer {
+    background: #1F2937;
+    color: #f9faf8;
+    padding: 24px; 
+    display: flex;
+    justify-content: center;
 }
